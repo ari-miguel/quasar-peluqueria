@@ -1,4 +1,4 @@
-module.exports = function () {
+export default function () {
   return {
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
@@ -34,8 +34,7 @@ module.exports = function () {
         browser: [ 'es2022', 'firefox115', 'chrome115', 'safari14' ],
         node: 'node20'
       },
-
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // changed from 'hash' to 'history' for Netlify
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
