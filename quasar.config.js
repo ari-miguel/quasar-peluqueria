@@ -93,7 +93,7 @@ export default function () {
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#sourcefiles
     sourceFiles: {
-      indexHtmlTemplate: 'src/index.html'
+      indexHtmlTemplate: 'src/templates/index.html'
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/developing-ssr/configuring-ssr
